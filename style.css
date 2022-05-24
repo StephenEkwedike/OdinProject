@@ -1,3 +1,8 @@
+div.lh{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  display: flex;
+}
+
 input{
   border: 2px solid #000;
   margin-bottom: 15px;
@@ -11,4 +16,18 @@ input:valid{
 
 input:invalid{
     border-color: red;
+}
+
+table, tr, td, th {
+  border: 1px solid black;
+}
+
+.lineheight{
+  line-height: 1.5;
+}
+
+.white-text-with-blue-shadow{
+  text-shadow: 1px 1px 2px black, 0 0 1em blue;
+  color: white;
+  font: 1.5em Georgia, serif;
 }
