@@ -1,6 +1,73 @@
+.flxcont{
+  display: flex;
+}
+
+.flxcont.cl2{
+  flex: 2 1 0%;
+}
+.flxcont div{
+  border: 4px blue solid;
+  background: peachpuff;
+  height: 100px;
+  flex: 1 1 0%;
+  margin: 5px;
+
+}
+.alldiv{
+  margin: 0 auto;
+  max-width: 600px;
+}
+.box1{
+  border: 20px solid blue;
+  margin: 60px;
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  text-align: center;
+  background-color: green;
+  /*box-sizing: border-box;*/
+  /*overflow: hidden; */
+  
+}
+
+.div1{
+  border: 3px solid blue;
+  margin: 12px;
+  background: pink;
+  padding:0px;
+  
+}
+
+.div2{
+  border: 3px solid purple;
+  margin-bottom: 0px;
+  background: rgb(0, 174, 255);
+  
+}
+
+.div3{
+  border: 3px solid brown;
+  margin-left: 80px;
+  width: 200px;
+  background: peachpuff;
+  padding:0px;
+  margin-top: 48px;
+
+}
+
+
 div.lh{
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   display: flex;
+}
+
+div.brdr{
+  border: 1.5rem solid blue;
+  margin: 2rem;
+  padding: 1rem;
+  outline: 0.5rem solid khaki;
+  box-shadow: 0 0 0 2rem skyblue;
+  
 }
 
 input{
@@ -23,11 +90,12 @@ table, tr, td, th {
 }
 
 .lineheight{
-  line-height: 1.5;
+  line-height: 1.5em;
 }
 
 .white-text-with-blue-shadow{
   text-shadow: 1px 1px 2px black, 0 0 1em blue;
   color: white;
   font: 1.5em Georgia, serif;
+  text-align: center;
 }
